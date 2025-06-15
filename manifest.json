@@ -1,12 +1,25 @@
 {
-  "manifest_version": 3,
-  "name": "Antirot Ban brainrot",
-  "description": "Yt is now free of brainrot",
+  "manifest_version": 2,
+  "name": "Antirot",
   "version": "1.0",
-  "icons": {
-    "16": "images/placeholder",
-    "32": "images/placeholder",
-    "48": "images/placeholder",
-    "128": "images/placeholder"
+  "description": "https://github.com/rootofrepo/Antirot/",
+  "permissions": [
+    "storage",
+    "https://www.youtube.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["*://www.youtube.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "browser_action": {
+    "default_popup": "options.html"
+  },
+  "background": {
+    "scripts": ["background.js"]
   }
+}
+
 }
