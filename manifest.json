@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Antirot Ban brainrot",
+  "description": "Yt is now free of brainrot",
+  "version": "1.0",
+  "icons": {
+    "16": "images/placeholder",
+    "32": "images/placeholder",
+    "48": "images/placeholder",
+    "128": "images/placeholder"
+  }
+}
