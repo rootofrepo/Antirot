@@ -1,8 +1,8 @@
 // Hardcoded list of YouTube channel handles to block
 const blockedHandles = [
-  "@placeholder",
-  "@usb-c-port",
-  "@placeholer"
+  "placeholder",
+  "usb-c-port",
+  "placeholer"
 ];
 
 function blockVideosByHandle() {
